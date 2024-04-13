@@ -9,7 +9,7 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
             $email: email,
         }
     };
-
+    console.log(email)
     // Send data to Klaviyo
     fetch('https://a.klaviyo.com/api/identify', {
         method: 'POST',
