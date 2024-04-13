@@ -14,7 +14,9 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
     fetch('https://a.klaviyo.com/api/identify', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+
         },
         body: JSON.stringify(data)
     }).then(response => response.json()).then(data => {
