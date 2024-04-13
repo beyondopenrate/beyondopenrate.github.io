@@ -15,7 +15,8 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': '*',
+            'Vary': 'origin'
 
         },
         body: JSON.stringify(data)
