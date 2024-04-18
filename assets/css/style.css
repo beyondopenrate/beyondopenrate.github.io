@@ -1647,3 +1647,42 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+/*--------------------------------------------------------------
+# Art of email form
+--------------------------------------------------------------*/
+
+.artofemail input[type=email] {
+  width: 400px;
+  height:50px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 0;
+  margin-top: 30px;
+}
+.artofemail input[type=submit] {
+  background: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.artofemail h2 {
+  font-weight: 400 !important;
+  text-transform: none !important;
+}
+
+.artofemail h2::after {
+  display: none;
+}
+
+.artofemail h1 {
+  margin-bottom: 30px !important;
+}
+
+.artofemail .btn-get-started {
+  width: 400px;
+}
