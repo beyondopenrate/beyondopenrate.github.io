@@ -1654,7 +1654,7 @@ section {
 # Art of email form
 --------------------------------------------------------------*/
 
-.artofemail input[type=email] {
+.artofemail input[type=email], .artofemail input[type=first_name] {
   width: 400px;
   height:50px;
   border-radius: 5px;
